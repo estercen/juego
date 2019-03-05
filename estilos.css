@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url(images/casa_cerdito_perezoso_fondo.jpg);
+	background-position: center, center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*HOUSES*/
+
+#casas{
+	display: flex;
+	justify-content:space-between;
+	position: absolute;
+	margin-top: 15em;
+}
+#casa-paja img{
+	max-width: 40%;
+  	height: auto;
+  	opacity: 10%;
+  	flex-grow: 1;
+  	position:relative;
+  	margin-left: 13em;
+
+}
+#casa-madera img{
+	max-width: 40%;
+  	height: auto;
+  	opacity: 10%
+  	flex-grow: 1;
+  	position:relative;
+  	margin-left: 12em;
+  	margin-top: 1em;
+}
+#casa-ladrillo img{
+	max-width: 55%;
+  	height: auto;
+  	opacity: 10%
+  	flex-grow: 1;
+  	position:relative;
+  	margin-top: 3em;
+}
+
+/*MATERIALS*/
+
+#materiales{
+	display: flex;
+	justify-content:space-between;
+	position: absolute;
+	margin-top: 35em;
+	margin-left: 12em;
+}
+#paja img{
+	max-width: 50%;
+  	height: auto;
+  	flex-grow: 1;
+  	position:relative;
+  
+}
+
+#madera img{
+	max-width: 50%;
+  	height: auto;
+  	flex-grow: 1;
+  	position:relative;
+}
+
+#ladrillo img{
+	max-width: 50%;
+  	height: auto;
+  	flex-grow: 1;
+  	position:relative;
+
+}
